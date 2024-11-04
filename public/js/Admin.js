@@ -1,4 +1,4 @@
-const endpoint = 'http://localhost:3000/productos'
+const endpoint = 'https://hardtienda.onrender.com/productos'
 
 // Event listener para el botón "Añadir Producto"
 document.getElementById('añadir').addEventListener('click', function () {
