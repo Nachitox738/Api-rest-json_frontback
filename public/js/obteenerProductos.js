@@ -1,4 +1,4 @@
-const respuesta = fetch('http://localhost:3000/productos')
+const respuesta = fetch('https://hardtienda.onrender.com/productos')
 .then(respuesta => respuesta.json())
 //respuesta.then(datos=>console.log(datos));
 .then(datos => mostrarProductos(datos));
