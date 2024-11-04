@@ -185,7 +185,7 @@ formulario.addEventListener('submit', (event) => {
   let titulo = formulario.Titulo.value
   let descripcion = formulario.Descripcion.value
   let precio = formulario.Precio.value
-  let imagen = "imagenes/" + formulario.Titulo.value + ".jpg"
+  let imagen = "https://picsum.photos/200/300?random=1"
   // console.log(titulo,descripcion,precio);
 
   // Objetos con los datos obtenidos en el formulario
